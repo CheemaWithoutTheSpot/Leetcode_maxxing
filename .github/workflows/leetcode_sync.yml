@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run LeetCode Sync
-        uses: joshcai/leetcode-sync@v1.7.0 # Uses the LeetCode Sync action framework
+        uses: joshcai/leetcode-sync@v1.7 # Uses the LeetCode Sync action framework
         with:
           github_token: ${{ github.token }}
           leetcode_session: ${{ secrets.LEETCODE_SESSION }}
